@@ -1,10 +1,12 @@
-const basePage = require('./basePage.js');
+const {  waitElement,isElementPresent } = require('./basePage.js');
 const mapsAB = require('../maps/mapsAB.js');
+const Constants =  require('../core/constants.js');
 module.exports = {
     validateLoad() {
-        basePage.waitElement(mapsAB.abText());
-        if (!basePage.estaPresente(mapsAB.abText())) {
+        console.log(mapsAB.abText()+" AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        waitElement(mapsAB.abText(),Constants.TIME_TO_WAIT);
+        if (!isElementPresent(mapsAB.abText())) {
             console.log("Erro ao validar AB page");
         }
     }
-}
+};

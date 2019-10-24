@@ -1,3 +1,3 @@
 module.exports={
-    abText: ()=>{$('//h3[text()="A/B Test Variation 1"]')},
+    abText: ()=>{return $('//h3[text()="A/B Test Variation 1"]')},
 }

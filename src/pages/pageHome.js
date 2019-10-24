@@ -1,5 +1,5 @@
 const mapsHome = require('../maps/mapsHome.js');
-const { clickElemento, waitElement } = require('./basePage.js');
+const { clickElemento, isPresent } = require('./basePage.js');
 
 module.exports = {
     /**
