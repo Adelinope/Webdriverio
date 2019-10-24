@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1569439663614' stop='1569439668711'>
+    <name>Teste de seleção de CheckBox</name>
+    <title>Teste de seleção de CheckBox</title>
+    <test-cases>
+        <test-case start='1569439663614' status='passed' stop='1569439668710'>
+            <name>Clicka CheckBox</name>
+            <title>Clicka CheckBox</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b2930d3a-8f12-4150-8649-4b608b5e02a1-attachment.png' type='image/png' size='73121'/>
+                <attachment title='Screenshot' source='ce20d869-e747-484c-802a-6b910b875383-attachment.png' type='image/png' size='28764'/>
+                <attachment title='Screenshot' source='e5365354-eb67-4e65-b3b5-86a33335b3c2-attachment.png' type='image/png' size='28555'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

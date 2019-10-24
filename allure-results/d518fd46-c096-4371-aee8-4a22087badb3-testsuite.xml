@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1569936096288' stop='1569936123825'>
+    <name>Acessar a pagina inicial do buscador</name>
+    <title>Acessar a pagina inicial do buscador</title>
+    <test-cases>
+        <test-case start='1569936096298' status='broken' stop='1569936123488'>
+            <name>Clicar no link A/B</name>
+            <title>Clicar no link A/B</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='95c5fc61-5b23-4f3e-89fa-ff57c7d346b8-attachment.png' type='image/png' size='73121'/>
+                <attachment title='Screenshot' source='e2279f85-5fc9-43bf-a690-660cc266bf2f-attachment.png' type='image/png' size='73121'/>
+            </attachments>
+            <failure>
+                <message>this.waitElement is not a function</message>
+                <stack-trace>TypeError: this.waitElement is not a function
+                    at clickElemento (C:\Users\asantope\ProjectWebDriver\src\pages\BasePage.js:22:14)
+                    at clicarAB (C:\Users\asantope\ProjectWebDriver\src\pages\PageHome.js:12:9)
+                    at Context.&lt;anonymous> (C:\Users\asantope\ProjectWebDriver\src\tests\specs\CT01.js:13:9)
+                    at Context.executeSync (C:\Users\asantope\ProjectWebDriver\node_modules\@wdio\sync\build\index.js:57:18)
+                    at C:\Users\asantope\ProjectWebDriver\node_modules\@wdio\sync\build\index.js:143:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

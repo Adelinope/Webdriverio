@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1569890745495' stop='1569890769838'>
+    <name>Teste de presença de elemento</name>
+    <title>Teste de presença de elemento</title>
+    <test-cases>
+        <test-case start='1569890745496' status='broken' stop='1569890769531'>
+            <name>Acessa Página</name>
+            <title>Acessa Página</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ed6c1a9b-fc27-47cd-8226-6870b2e0cc81-attachment.png' type='image/png' size='73121'/>
+                <attachment title='Screenshot' source='f268e0fa-154a-4f25-929b-2c30bbfcc0fe-attachment.png' type='image/png' size='73121'/>
+            </attachments>
+            <failure>
+                <message>this.waitElement is not a function</message>
+                <stack-trace>TypeError: this.waitElement is not a function
+                    at clickElemento (C:\Users\asantope\ProjectWebDriver\src\pages\BasePage.js:22:14)
+                    at addRemoveElementos (C:\Users\asantope\ProjectWebDriver\src\pages\PageHome.js:19:9)
+                    at Context.&lt;anonymous> (C:\Users\asantope\ProjectWebDriver\src\tests\specs\CT02.js:14:9)
+                    at Context.executeSync (C:\Users\asantope\ProjectWebDriver\node_modules\@wdio\sync\build\index.js:57:18)
+                    at C:\Users\asantope\ProjectWebDriver\node_modules\@wdio\sync\build\index.js:143:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

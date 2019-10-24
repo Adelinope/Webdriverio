@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571874475914' stop='1571874477446'>
+    <name>Acessar a pagina inicial do buscador</name>
+    <title>Acessar a pagina inicial do buscador</title>
+    <test-cases>
+        <test-case start='1571874475915' status='broken' stop='1571874477042'>
+            <name>Clicar no link A/B</name>
+            <title>Clicar no link A/B</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3ca034a1-d93d-46ec-9c0b-c136fd5168cc-attachment.png' type='image/png' size='9100'/>
+            </attachments>
+            <failure>
+                <message>Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at Browser.url (C:\Users\adeli\WebDriverIO\node_modules\webdriverio\build\commands\browser\url.js:16:11)
+                    at Browser.runCommandWithHooks (C:\Users\adeli\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:62:30)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Browser.runCommandWithHooks (C:\Users\adeli\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:56:22)
+                    at Browser.wrapCommandFn (C:\Users\adeli\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:33:40)
+                    at Context.&lt;anonymous> (C:\Users\adeli\WebDriverIO\src\tests\specs\CT01.js:11:17)
+                    at Context.executeSync (C:\Users\adeli\WebDriverIO\node_modules\@wdio\sync\build\index.js:57:18)
+                    at C:\Users\adeli\WebDriverIO\node_modules\@wdio\sync\build\index.js:143:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

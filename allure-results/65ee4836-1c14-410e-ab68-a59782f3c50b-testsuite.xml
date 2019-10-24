@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1571874075522' stop='1571874080718'>
+    <name>Acessar a pagina inicial do buscador</name>
+    <title>Acessar a pagina inicial do buscador</title>
+    <test-cases>
+        <test-case start='1571874075522' status='passed' stop='1571874080717'>
+            <name>Clicar no link A/B</name>
+            <title>Clicar no link A/B</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5f7ba194-3479-42b0-99f4-219e8a60bfa4-attachment.png' type='image/png' size='73303'/>
+                <attachment title='Screenshot' source='88272b88-5b56-4620-9538-b568513c4cad-attachment.png' type='image/png' size='37672'/>
+                <attachment title='Screenshot' source='ba7037a7-de4c-41bd-8b7e-87154d543316-attachment.png' type='image/png' size='37672'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

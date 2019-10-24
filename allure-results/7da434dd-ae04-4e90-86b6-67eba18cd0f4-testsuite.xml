@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1570019027889' stop='1570019031468'>
+    <name>Acessar a pagina inicial do buscador</name>
+    <title>Acessar a pagina inicial do buscador</title>
+    <test-cases>
+        <test-case start='1570019027897' status='broken' stop='1570019031045'>
+            <name>Clicar no link A/B</name>
+            <title>Clicar no link A/B</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0c316063-e5a3-4344-af57-1b2b79fea337-attachment.png' type='image/png' size='73121'/>
+                <attachment title='Screenshot' source='971725c6-a98d-40bc-aa0e-d92c7540ae32-attachment.png' type='image/png' size='73121'/>
+            </attachments>
+            <failure>
+                <message>abTestingButton.getText is not a function</message>
+                <stack-trace>TypeError: abTestingButton.getText is not a function
+                    at clicarAB (C:\Users\asantope\ProjectWebDriver\src\pages\PageHome.js:11:37)
+                    at Context.&lt;anonymous> (C:\Users\asantope\ProjectWebDriver\src\tests\specs\CT01.js:13:9)
+                    at Context.executeSync (C:\Users\asantope\ProjectWebDriver\node_modules\@wdio\sync\build\index.js:57:18)
+                    at C:\Users\asantope\ProjectWebDriver\node_modules\@wdio\sync\build\index.js:143:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
