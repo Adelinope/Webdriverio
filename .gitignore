@@ -1,0 +1,5 @@
+node_modules
+allure-resultsdebug
+package
+package-lock
+debug
